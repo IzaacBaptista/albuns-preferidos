@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(50deg, #944b46, #cca5a5);
+    font-weight: 500;
+}
+
+img {
+    opacity:0.9;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+}
+
+img:hover {
+    opacity:1;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 25px #ece5e5;
+    transform: scale(1.1);
+}
+
+h3 {
+    cursor: pointer;
+    text-align: center;
+
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 21px;
+    color: rgb(255, 255, 255);
+}
+
+.titulo-album {
+    margin-top: 5%;
+}
+
+.div-img {
+    margin-top: 5%;
+}
